@@ -12,294 +12,459 @@
     <title>Michelle Mabuyo</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom CSS -->
-    <link href="css/landing-page.css" rel="stylesheet">
+    <!-- Theme CSS -->
+    <link href="css/freelancer.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
 </head>
 
-<body>
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="#page-top">M.M.</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#portfolio">Projects</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#resume">Resume</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
 
     <!-- Header -->
-    <a name="about"></a>
-    <div class="intro-header">
+    <header>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="intro-message">
-                        <h1>Michelle Mabuyo</h1>
-                        <h4><i class="fa fa-graduation-cap"></i>&nbsp;&nbsp;BSc Computer Software Engineering Co-op, 2017</h4>
-                        <hr class="intro-divider">
-                        <ul class="list-inline intro-social-buttons">
+                    <!-- <img class="img-responsive" src="img/profile.png" alt=""> -->
+                    <div class="intro-text">
+                        <span class="name">Michelle Mabuyo</span>
+                        <span class="skills">Software Developer</span>
+                        <ul class="list-inline">
                             <li>
-                                <a href="#resume" class="btn btn-default btn-lg"><i class="fa fa-briefcase fa-fw"></i> <span class="network-name">Resume</span></a>
+                                <a href="mailto:michelle.mabuyo@gmail.com" class="btn-social btn-outline"><i class="fa fa-fw fa-envelope"></i></a>
                             </li>
                             <li>
-                                <a href="https://github.com/mabuyo" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                                <a href="https://twitter.com/MichelleMabuyo" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
                             </li>
                             <li>
-                                <a href="https://ca.linkedin.com/in/michellemabuyo" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
-                            </li>
-                        </ul>
-                        <ul class="list-inline intro-social-buttons">
-                            <li>
-                                <a href="#about" id="aboutme-btn" class="btn btn-default btn-lg"><i class="fa fa-glass fa-fw"></i> <span class="network-name">About Me</span></a>
+                                <a href="https://github.com/mabuyo" class="btn-social btn-outline"><i class="fa fa-fw fa-github-alt"></i></a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
-        </div>   <!-- /.container -->
-    </div>
-    <!-- /.intro-header -->
+        </div>
+    </header>
 
-    <a id="about"></a>
-    <div class="about">
+    <!-- About Section -->
+    <section class="success" id="about">
         <div class="container">
             <div class="row">
-                <h1>ABOUT ME</h1>
+                <div class="col-lg-12 text-center">
+                    <h2>About</h2>
+                    <hr class="star-light">
+                </div>
             </div>
-            <hr/>
-            <br/>
             <div class="row">
-                <div class="col-lg-6 col-lg-offset-3" id="about-me">
+                <div class="col-lg-3 col-lg-offset-2">
+                    <img src="img/face.jpg" width=100%/>
+                </div>
+                <div class="col-lg-6">
                     <p>Interested in: web design &amp; development, mobile app development and long walks on the beach. My laptop screen is permanently split-screened with code on one side and an episode of Grey's Anatomy on the other. When not in front of a computer, you will probably find my nose buried in a book or a bottle of wine, depending on the time of day. Dancing is my go-to workout, iced coffee is my go-to drink and Python is my go-to programming language. Born and raised in the Philippines, I've lived in Alberta, Canada for ten years but have yet to see anyone riding their polar bear.</p>
 
-                    <h5>Welcome to my little corner of the web!</h5>
+                    <p>Welcome to my little corner of the web!</p>
                 </div>
             </div>
         </div>
-    </div>
-    <br/>
+    </section>
 
-    <div class="banner">
-        <div class="container">
-        </div>
-    </div>
-
-    <a name="resume"></a>
-    <div class="resume">
-
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio">
         <div class="container">
             <div class="row">
-                <h1>WORK EXPERIENCE</h1>
-            </div>
-            <hr/>
-            <br/>
-            <!-- PHAC -->
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h3 class="panel-title"><i class="fa fa-angle-double-right"></i>Public Health Agency of Canada</h3>
-                        </div>
-                        <div class="panel-body">
-                            <p class="job">CNPHI Co-op Student</p>
-                            <p>January - August 2015, May 2016 - Present</p>
-                            <ul class="fa-ul">
-                                <li><i class="fa fa-li fa-minus"></i>Developing and testing a cross-platform hybrid mobile application to support data collection for the Canadian Network of Public Health Intelligence platform</li>
-                                <li><i class="fa fa-li fa-minus"></i>Developing an app that enables field workers to access and update tasks and make requests.</li>
-                                <li><i class="fa fa-li fa-wrench"></i>Apache Cordova, HTML, JQuery, CSS, KnockoutJS, Python</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- DELOITTE -->
-                <div class="col-lg-6">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h3 class="panel-title"><i class="fa fa-angle-double-right"></i>Deloitte</h3>
-                        </div>
-                        <div class="panel-body">
-                            <p class="job">Technology Summer Student</p>
-                            <p>June - August 2014</p>
-                            <ul class="fa-ul">
-                                <li><i class="fa-li fa fa-minus"></i>Replaced laptops for over 50 employees, which involved prepping laptops, troubleshooting data migration issues and decommissioning end-of-lease laptops</li>
-                                <li><i class="fa-li fa fa-minus"></i>Prioritized regular depot activities such as hardware equipment sign-outs, incident management, and processing new hires and departures</li>
-                            </ul>
-                        </div>
-                    </div>
+                <div class="col-lg-12 text-center">
+                    <h2>Projects</h2>
+                    <hr class="star-primary">
                 </div>
             </div>
-            <!-- /end row -->
-
-            <!-- WONK -->
             <div class="row">
-                <div class="col-lg-6">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h3 class="panel-title"><i class="fa fa-angle-double-right"></i>Wetaskiwin and District Heritage Museum</h3>
-                        </div>
-                        <div class="panel-body">
-                            <p class="job">Summer Student Museum Assistant</p>
-                            <p>May - August 2013</p>
-                            <ul class="fa-ul">
-                                <li><i class="fa-li fa fa-minus"></i>Conducted research on two women for the Women of Aspenland exhibit, which involved extensive data collection, interviewing, and panel and exhibit design</li>
-                                    <li><i class="fa-li fa fa-minus"></i>Facilitated school tours for 20 students at a time, ranging from kindergarten to grade three</li>
-                                </ul>
+                <div class="col-sm-6 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
                             </div>
-                    </div>
+                        </div>
+                        <div class="well">
+                            <h3>Weasley Clock</h3>
+                        </div>
+                    </a>
                 </div>
-
-                    <!-- SUBWAY -->
-                <div class="col-lg-6">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h3 class="panel-title"><i class="fa fa-angle-double-right"></i>Subway</h3>
+                <div class="col-sm-6 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
                         </div>
-                        <div class="panel-body">
-                            <p class="job">Sandwich Artist</p>
-                            <p>January 2011 - August 2012, May - August 2013</p>
-                            <ul class="fa-ul">
-                                <li><i class="fa-li fa fa-minus"></i>Worked an average of six hour shifts involving food preparation, creation and safety</li>
-                                <li><i class="fa-li fa fa-minus"></i>Developed marketing skills, contributing to a 3% increase in add-on sales per month</li>
-                                <li><i class="fa-li fa fa-minus"></i>Communicated and responded to instructions ensuring customer satisfaction</li>
-                            </ul>
+                        <div class="well">
+                            <h3>Hamster Home</h3>
                         </div>
-                    </div>
+                    </a>
+                </div>
+                <div class="col-sm-6 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <div class="well">
+                            <h3>Ready, Set, Press!</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-6 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <div class="well">
+                            <h3>Flight Booking</h3>
+                        </div>
+                    </a>
                 </div>
             </div>
-            <!-- /end row -->
         </div>
-    </div>
-    <!-- /end resume -->
-    <div class="banner-a">
-        <div class="container">
-        </div>
-    </div>
+    </section>
 
-    <!-- VOLUNTEER -->
-    <a name="volunteer"></a>
-    <div class="volunteer">
-
+    <!-- Resume section  -->
+    <section class="success" id="resume">
         <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Resume</h2>
+                    <hr class="star-light">
+                    <a href="pdf/MichelleMabuyo-online-resume.pdf" type="button" class="btn btn-lg btn-info" download>Download PDF</a>
+                </div>
+            </div>
             <br/>
             <div class="row">
-                <h1>VOLUNTEER EXPERIENCE</h1>
+                <div class="col-lg-6 text-center">
+                    <div class="panel panel-info">
+                      <div class="panel-heading">
+                        <h3 class="panel-title">Work Experience</h3>
+                      </div>
+                      <div class="panel-body">
+                          <div class="list-group">
+                          <div class="list-group-item"><i class="fa fa-2x fa-pull-left fa-fw fa-heartbeat"></i>
+                              <strong>Public Health Agency of Canada</strong><br/>
+                              CNPHI Co-op Student <br/>
+                              <i class="fa fa-fw fa-wrench"></i>Apache Cordova, HTML, JQuery, CSS, KnockoutJS, Python
+                          </div>
+                          <div class="list-group-item"><i class="fa fa-2x fa-pull-left fa-fw fa-desktop"></i>
+                              <strong>Deloitte</strong><br/>
+                              Technology Summer Student <br/>
+                              <i class="fa fa-fw fa-wrench"></i>IT
+                          </div>
+                          <div class="list-group-item"><i class="fa fa-2x fa-pull-left fa-fw fa-building-o"></i>
+                              <strong>Wetaskiwin and District Heritage Museum</strong><br/>
+                              Summer Student Museum Assistant
+                          </div>
+                      </div>
+
+                      </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 text-center">
+                    <div class="panel panel-info">
+                      <div class="panel-heading">
+                        <h3 class="panel-title">Volunteer Experience</h3>
+                      </div>
+                      <div class="panel-body">
+                          <div class="list-group">
+                          <div class="list-group-item"><i class="fa fa-2x fa-pull-left fa-fw fa-code"></i>
+                              <span>DiscoverE Girls Coding Club Volunteer</span><br/>
+                              Teaching grades 3-5 girls computing science concepts using Scratch, web development and Python
+                          </div>
+                          <div class="list-group-item"><i class="fa fa-2x fa-pull-left fa-fw fa-cog"></i>
+                              <span>Engineering Students' Society AVP Publications</span><br/>
+                              Chief Editor of the engineering student newspaper "The Bridge" <br/>
+                              <i class="fa fa-newspaper-o"></i><a href="http://ess.ualberta.ca/the-bridge">  Read the published issues here!</a>
+                          </div>
+                          <div class="list-group-item"><i class="fa fa-2x fa-pull-left fa-fw fa-user"></i>
+                              <span>Computer Engineering Club VP External (Winter)</span><br/>
+                              Involved with event planning, execution and sponsor outreach for ECE Week &amp; HackEd.<br/>
+                              <i class="fa fa-lightbulb-o"></i><a href="http://eceweek.compeclub.com">  Check out the details for ECE Week!</a>
+                          </div>
+                      </div>
+
+                      </div>
+                    </div>
+                </div>
             </div>
-            <hr/><br/>
-
             <div class="row">
-                <div class="col-lg-6 col-lg-offset-3">
-                    <div class="list-group">
-                        <div class="list-group-item"><i class="fa fa-2x fa-pull-left fa-fw fa-code"></i>
-                            <span class="volunteer-title">DiscoverE Girls Coding Club Volunteer</span><br/>
-                            Teaching grades 3-5 girls computing science concepts using Scratch and building websites
-                        </div>
-                        <div class="list-group-item"><i class="fa fa-2x fa-pull-left fa-fw fa-lightbulb-o"></i>
-                            <span class="volunteer-title">SPIE Student Chapter Vice President</span><br/>
-                            Event planning and project management for the photonics and optics club.
-                        </div>
-                        <div class="list-group-item"><i class="fa fa-2x fa-pull-left fa-fw fa-cog"></i>
-                            <span class="volunteer-title">Engineering Students' Society AVP Publications</span><br/>
-                            Chief Editor of the engineering student newspaper The Bridge
-                        </div>
-                        <div class="list-group-item"><i class="fa fa-2x fa-pull-left fa-fw fa-user"></i>
-                            <span class="volunteer-title">ESS Head Shave Coordinator</span><br/>
-                            Planning the annual engineering head shave event to raise money for cancer awareness.
-                        </div>
+                <div class="col-lg-12 text-center">
+                    <a href="pdf/MichelleMabuyo-online-resume.pdf" type="button" class="btn btn-lg btn-info" download>Download PDF</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Footer -->
+    <footer class="text-center" id="contact">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h3>Location</h3>
+                        <p>Edmonton, Alberta
+                            <br>Canada</p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Contact Me</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="mailto:michelle.mabuyo@gmail.com" class="btn-social btn-outline"><i class="fa fa-fw fa-envelope"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/MichelleMabuyo" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/mabuyo" class="btn-social btn-outline"><i class="fa fa-fw fa-github-alt"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://ca.linkedin.com/in/michellemabuyo" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Thanks for visiting!</h3>
+                        <p>The best way to reach me is by email at michelle.mabuyo@gmail.com or Twitter @MichelleMabuyo  <i class="fa fa-smile-o"></i></p>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <br/>
-    <div class="banner-b">
-        <div class="container">
-        </div>
-    </div>
-
-    <!-- VOLUNTEER -->
-    <a name="projects"></a>
-    <div class="projects">
-
-        <div class="container">
-            <br/>
-            <div class="row">
-                <h1>PROJECTS</h1>
-                <p>Some highlights of the projects I've worked on. Check out my <a href="http://github.com/mabuyo">Github</a> for more.</p>
-            </div>
-            <hr/><br/>
-
-            <div class="row">
-                <div class="col-lg-6 col-lg-offset-3">
-                    <div class="list-group">
-                        <div class="list-group-item"><i class="fa fa-2x fa-pull-left fa-fw fa-cogs"></i>
-                            <span class="volunteer-title">Hamster Home</span><br/>
-                            <ul class="fa-ul">
-                                <li><i class="fa-li fa fa-trophy"></i>Hack The North 2015 Top 12 Finalist</li>
-                                <li><i class="fa-li fa fa-trophy"></i>Hack The North 2015 Firebase API Winner</li>
-                                <li><i class="fa-li fa fa-minus"></i>A hamster cage you can interact with via a webpage that keeps track of a hamster's wellbeing (food, water, &amp; health).</li>
-                                <!-- <li><a href="https://github.com/mabuyo/HTN-HamsterHome"class="btn btn-default"><i class="fa fa-fw fa-github"></i> Github</a><a href="https://www.facebook.com/michelle.mabuyo/videos/1078451095506236/?l=4277688750153829652" class="btn btn-default"><i class="fa fa-fw fa-video-camera"></i> Video</a></li> -->
-                                <li><i class="fa-li fa-minus"></i>GitHub and video link to come!</li>
-                            </ul>
-                        </div>
-                        <div class="list-group-item"><i class="fa fa-2x fa-pull-left fa-fw fa-cogs"></i>
-                            <span class="volunteer-title">Connect Four</span><br/>
-                            <ul class="fa-ul">
-                                <li><i class="fa-li fa fa-minus"></i>A Ruby project that uses Shoes to play Connect Four against an AI. </li>
-                                <li><a href="https://github.com/mabuyo/ConnectFour" class="btn btn-default"><i class="fa fa-fw fa-github"></i> Github</a></li>
-                            </ul>
-                        </div>
-                        <div class="list-group-item"><i class="fa fa-2x fa-pull-left fa-fw fa-cogs"></i>
-                            <span class="volunteer-title">Flights Database CLI</span><br/>
-                            <ul class="fa-ul">
-                                <li><i class="fa-li fa fa-minus"></i>A mini-project using SQL and Python to create and query a database of flights and bookings.</li>
-                                <li><a href="https://github.com/mabuyo/CMPUT291-flights-database" class="btn btn-default"><i class="fa fa-fw fa-github"></i> Github</a></li>
-                            </ul>
-                        </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <br/>
-    <div class="banner-c">
-        <div class="container">
-        </div>
-    </div>
-
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul class="list-inline">
-                        <li>
-                            <a href="#">Home</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="#resume">Resume</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="mailto:mabuyo@ualberta.ca"><i class="fa fa-mail"></i> mabuyo@ualberta.ca</a>
-                        </li>
-                    </ul>
-                    <p class="copyright text-muted small">Photos from <a href="https://www.flickr.com/photos/hackthenorth/sets/72157658808000230">Hack The North 2015</a> Copyright JK LIU</p>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; Michelle Mabuyo 2016, from Freelancer Bootstrap template
+                    </div>
                 </div>
             </div>
         </div>
     </footer>
 
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Modernized Weasley Clock</h2>
+                            <hr class="star-primary">
+                            <!-- <img src="img/portfolio/cabin.png" class="img-responsive img-centered" alt=""> -->
+                            <p>A Harry Potter inspired clock that shows the location of your family members. Comes as a physical clock with location icons in place of numbers and a colored LED for each person to be displayed in your home, as well as an iOS app to establish your own unique set of locations.</p>
+
+                            <p><a href="http://devpost.com/software/modernized-weasley-clock-yotu43">Devpost</a></p>
+                            <ul class="list-inline item-details">
+                                <li>Date:
+                                    <strong>Sept 2016
+                                    </strong>
+                                </li>
+                                <li>Tools:
+                                    <strong>iOS Swift, Particle Photon
+                                    </strong>
+                                </li>
+                                <li>Awards:
+                                    <strong>Hack the North 2016 Top 12 Winner
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Hamster Home</h2>
+                            <hr class="star-primary">
+                            <!-- <img src="img/portfolio/cake.png" class="img-responsive img-centered" alt=""> -->
+                            <p>A webpage that connects to a hamster cage to monitor your hamster’s wellbeing. You can feed your hamster with a click of a button, track its water levels and display data about its running activity.</p>
+                            <p><a href="http://devpost.com/software/hamster-home">Devpost</a></p>
+                            <ul class="list-inline item-details">
+                                <li>Date:
+                                    <strong>Sept 2015
+                                    </strong>
+                                </li>
+                                <li>Tools:
+                                    <strong>Python, Firebase, Bootstrap, Arduino, Raspberry Pi
+                                    </strong>
+                                </li>
+                                <li>Awards:
+                                    <strong>Hack the North 2015 Top 12 Winner, Firebase API Winner
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Ready, Set, Press!</h2>
+                            <hr class="star-primary">
+                            <p>An Android app that tests your reaction time. Features single and multi-player mode and saves statistics. Developed for a CMPUT301 course project.</p>
+                            <p><a href="https://github.com/mabuyo/ready-set-press">Github</a></p>
+                            <ul class="list-inline item-details">
+                                <li>Date:
+                                    <strong>Fall 2015
+                                    </strong>
+                                </li>
+                                <li>Tools:
+                                    <strong>Android
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Flight Booking</h2>
+                            <hr class="star-primary">
+                            <p>A command-line interface that allows you to search for and book flights. Developed for a CMPUT291 course project.</p>
+                            <p><a href="https://github.com/mabuyo/CMPUT291-flights-database">Github</a></p>
+                            <ul class="list-inline item-details">
+                                <li>Date:
+                                    <strong>Fall 2015
+                                    </strong>
+                                </li>
+                                <li>Tools:
+                                    <strong>Python, SQL
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <script src="vendor/jquery/jquery.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/freelancer.min.js"></script>
 
 </body>
 
